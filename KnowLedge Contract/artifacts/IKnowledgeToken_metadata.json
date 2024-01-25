@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "reward",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"knowledgeSystemContract.sol": "IKnowledgeToken"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"knowledgeSystemContract.sol": {
+			"keccak256": "0x083b18a936a06b54c1814a08b24ff6db2b1e3c55b7db7a9cfdc9e5e51c70895e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49d6fb2490ebd4a7bf8a308b8ecdb4348971f4fd72398b12981d97d9d4cbba11",
+				"dweb:/ipfs/QmckBNau49sxrGFqNLmn5APWbkW5dnWF8z2zDKd6aAiDwJ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -794,7 +794,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract-3a9ee8d031.sol": "KnowledgeToken"
+			"testContract-20240125.sol": "KnowledgeToken"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -1000,12 +1000,12 @@
 				"dweb:/ipfs/QmVBEei6aTnvYNZp2CHYVNKyZS4q1KkjANfY39WVXZXVoT"
 			]
 		},
-		"contract-3a9ee8d031.sol": {
-			"keccak256": "0xb3c07fc563c194d591150d98e85631bcdac1299dba57088d8d7f027a8ff3d9ba",
+		"testContract-20240125.sol": {
+			"keccak256": "0x9f096c4a846f4e8734a575ad03bc1679167875efd3375fbfd2085ee903e7f913",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6c06265aa5bceaee7711d1f9ba6d66a8875ab122bc508b5b7703dc41e6308054",
-				"dweb:/ipfs/QmetBAiBngQXVxBJBei1CV9CYVkdo4HFtxafo3Ez4KVDeK"
+				"bzz-raw://fa8642d6cb6040a4e891515697dd72fc34ef62d32cc2f9c983861fe275ca5906",
+				"dweb:/ipfs/QmZvjoxaJa3xB5EgZbgUEJjh8x44DCXG5E6wVAHorit2Fp"
 			]
 		}
 	},
