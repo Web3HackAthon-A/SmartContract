@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -52,11 +65,11 @@
 	},
 	"sources": {
 		"knowledgeSystemContract.sol": {
-			"keccak256": "0x083b18a936a06b54c1814a08b24ff6db2b1e3c55b7db7a9cfdc9e5e51c70895e",
+			"keccak256": "0xa0347f055b6e288ac0c7f7560181957d6e12406aa91b289b26293a66e1a5fcb0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://49d6fb2490ebd4a7bf8a308b8ecdb4348971f4fd72398b12981d97d9d4cbba11",
-				"dweb:/ipfs/QmckBNau49sxrGFqNLmn5APWbkW5dnWF8z2zDKd6aAiDwJ"
+				"bzz-raw://5e10e58cbb4bd8bfd2aae015a9cee9dbcdf7f09268d22ca349bacd14a36df637",
+				"dweb:/ipfs/QmWj6pL1Np9H7B5T4WpxGvF5Wjak7xFvyu4uEqTdWeQuzJ"
 			]
 		}
 	},
