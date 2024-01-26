@@ -23,6 +23,6 @@ contract KnowledgeNFT is ERC721 {
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://";
+        return "https://raw.githubusercontent.com/Web3HackAthon-A/SmartContract/katori-dev/NFT%20Folder/";
     }
 }

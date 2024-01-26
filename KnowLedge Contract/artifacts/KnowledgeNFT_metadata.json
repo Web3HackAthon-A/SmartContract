@@ -752,11 +752,11 @@
 			]
 		},
 		"knowledgeContract.sol": {
-			"keccak256": "0x4caa11eeb96be853bf9b93f5543416ddf23b3babe48cf7f7e03df03452ca1fb1",
+			"keccak256": "0xee00ca3443037ef8dc6340fbe24cc908e8677f6a0c7c456b11c37523243e8cc9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7ae62bb79cbd732c55451800d2645bd2724302872d16f93764141afb70d7b540",
-				"dweb:/ipfs/QmaBRpnDjfe695MiPU4q2ZFpWpvkvHWAANrfbSMiEho1X4"
+				"bzz-raw://38868088822cf59b5ee93e5530ad59477d771d741671617eda13f8ae9a138f84",
+				"dweb:/ipfs/QmTjfwR4AK38zbk6Wr2ciP8BpWED4Fgnw73EAAnMFNPEAi"
 			]
 		}
 	},
