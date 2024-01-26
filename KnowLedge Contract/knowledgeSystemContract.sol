@@ -27,8 +27,8 @@ contract KnowledgeSystem {
         tokenContract = IKnowledgeToken(tokenContractAddress);
     }
 
-    uint256 amount = 20 * 10 ** tokenContract.decimals();
     function createKnowledge(string memory knowledge) public {
+        uint256 amount = 20 * 10 ** tokenContract.decimals();
         nftContract.createKnowlegde(knowledge);
         tokenContract.reward(msg.sender, amount);
     }
