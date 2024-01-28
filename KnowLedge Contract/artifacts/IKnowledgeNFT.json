@@ -49,12 +49,19 @@
 		},
 		"gasEstimates": null,
 		"methodIdentifiers": {
-			"createKnowlegde(string)": "6e721bfa"
+			"createKnowlegde(address,string)": "d15aecd3",
+			"getKnowledge(uint256)": "28e7b2a6",
+			"ownerOf(uint256)": "6352211e"
 		}
 	},
 	"abi": [
 		{
 			"inputs": [
+				{
+					"internalType": "address",
+					"name": "knowledgeOwner",
+					"type": "address"
+				},
 				{
 					"internalType": "string",
 					"name": "knowledge",
@@ -64,6 +71,44 @@
 			"name": "createKnowlegde",
 			"outputs": [],
 			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "tokenId",
+					"type": "uint256"
+				}
+			],
+			"name": "getKnowledge",
+			"outputs": [
+				{
+					"internalType": "string",
+					"name": "",
+					"type": "string"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "tokenId",
+					"type": "uint256"
+				}
+			],
+			"name": "ownerOf",
+			"outputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"stateMutability": "view",
 			"type": "function"
 		}
 	]

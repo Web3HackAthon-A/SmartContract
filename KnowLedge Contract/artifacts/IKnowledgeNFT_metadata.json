@@ -8,6 +8,11 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "knowledgeOwner",
+						"type": "address"
+					},
+					{
 						"internalType": "string",
 						"name": "knowledge",
 						"type": "string"
@@ -16,6 +21,44 @@
 				"name": "createKnowlegde",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "getKnowledge",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "ownerOf",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -47,11 +90,11 @@
 	},
 	"sources": {
 		"knowledgeSystemContract.sol": {
-			"keccak256": "0x40af6cd0a630b64c3b658fc9bf0704c4ca612e6fc579dce3a98da7d6effcb877",
+			"keccak256": "0x1f0c87016641dd0617e078b50c6eb20a6f702fdca72039516c05836cd5b440de",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://79bbff4cd7a669ddf45a7859a881499088a3f59029b6794176e66bfd396dfb85",
-				"dweb:/ipfs/QmNpeL1ni3U25FTqWGJxbFz1hVbcLeHcDkAouS6LiBV5o2"
+				"bzz-raw://977bc8fe095799ffcfa8e428eec6b661f0942758e0f9d3e8d5f41bb6916c70eb",
+				"dweb:/ipfs/QmehYqCsTaCiZ4dnUTKKLwJzhEMuWQNZ2UeK4t5ZZHufto"
 			]
 		}
 	},
