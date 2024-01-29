@@ -15,18 +15,30 @@ contract KnowledgeNFT is ERC721, AccessControl {
         _grantRole(MINTER_ROLE, minter);
     }
 
+    function _baseURI() internal pure override returns (string memory) {
+        return "https://web3hackathon-a.github.io/SmartContract/NFT/metadata/";
+    }
+
+    // ナレッジの作成
     function createKnowlegde(address knowledgeOwner, string memory knowledge) public onlyRole(MINTER_ROLE) {
         knowledgeData[tokenCounter] = knowledge;
         _mint(knowledgeOwner, tokenCounter);
         tokenCounter++;
     }
 
+    // ナレッジの参照
     function getKnowledge(uint256 tokenId) public view returns (string memory) {
         return knowledgeData[tokenId];
     }
 
-    function _baseURI() internal pure override returns (string memory) {
-        return "https://raw.githubusercontent.com/Web3HackAthon-A/SmartContract/katori-dev//NFT/metadata/";
+    // アカウントへのNFT発行権限の付与
+    function addMinterRole(address account) public onlyRole(DEFAULT_ADMIN_ROLE) {
+        _grantRole(MINTER_ROLE, account);
+    }
+
+    // アカウントからのNTF発行権限の削除
+    function removeMinterRole(address account) public onlyRole(DEFAULT_ADMIN_ROLE) {
+        _revokeRole(MINTER_ROLE, account);
     }
 
     // The following functions are overrides required by Solidity.

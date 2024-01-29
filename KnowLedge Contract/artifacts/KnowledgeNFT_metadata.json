@@ -325,6 +325,19 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "addMinterRole",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "to",
 						"type": "address"
 					},
@@ -548,6 +561,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "removeMinterRole",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -1026,11 +1052,11 @@
 			]
 		},
 		"knowledgeContract.sol": {
-			"keccak256": "0x08cbed87727e573b1f45dbf9f007907666686541c34ee240afd0288196ca1198",
+			"keccak256": "0x844c77d836b4ca674fc5496198c160daccfebaea2738b39c4ffc10118c5f00eb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f0e7aa10010e45ee7d41e3b59828dff59bcff78a03469b9769f3f7cc5408e5a3",
-				"dweb:/ipfs/QmVgxDTJM8k6F9QRmfJZT2LUcTAU9PavcxL2TzSPjYeRoK"
+				"bzz-raw://3d0bc8979916d8085ef92b235870672bc618c3876699ab59a7340bbed5ee1ca8",
+				"dweb:/ipfs/QmXkSZJ8RL2i66gb9pTSud1wGZdP6qLzMquRKeL59XGpvM"
 			]
 		}
 	},

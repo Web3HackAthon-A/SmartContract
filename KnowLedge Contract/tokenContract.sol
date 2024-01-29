@@ -17,14 +17,17 @@ contract KnowledgeToken is ERC20, AccessControl, ERC20Permit {
         _grantRole(REWARD_ROLE, rewarder);
     }
 
+    // トークン発行によるインセンティブの付与
     function reward(address to, uint256 amount) public onlyRole(REWARD_ROLE) {
         _mint(to, amount);
     }
 
+    // アカウントへのトークン発行権限の付与
     function addRewardRole(address account) public onlyRole(DEFAULT_ADMIN_ROLE) {
         _grantRole(REWARD_ROLE, account);
     }
 
+    // アカウントからのトークン発行権限の削除
     function removeRewardRole(address account) public onlyRole(DEFAULT_ADMIN_ROLE) {
         _revokeRole(REWARD_ROLE, account);
     }
