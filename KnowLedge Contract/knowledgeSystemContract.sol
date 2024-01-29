@@ -69,4 +69,14 @@ contract KnowledgeSystem {
         address ownerAddress = nftContract.ownerOf(tokenId);
         tokenContract.reward(ownerAddress, amount * 10 ** tokenContract.decimals());
     }
+
+    // 接続中のナレッジNFT用コントラクトのアドレス取得
+    function getNftContractAddress() public view returns (address) {
+        return nftContractAddress;
+    }
+
+    // 接続中のトークン用コントラクトのアドレス取得
+    function getTokenContract() public view returns (address) {
+        return tokenContractAddress;
+    }
 }
