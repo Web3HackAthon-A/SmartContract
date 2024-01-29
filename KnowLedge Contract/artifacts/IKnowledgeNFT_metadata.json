@@ -90,11 +90,11 @@
 	},
 	"sources": {
 		"knowledgeSystemContract.sol": {
-			"keccak256": "0x1f0c87016641dd0617e078b50c6eb20a6f702fdca72039516c05836cd5b440de",
+			"keccak256": "0x58815442416adaad1c2d5878e9c10cf64f3bfacb13d752b065e5e85be26cc633",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://977bc8fe095799ffcfa8e428eec6b661f0942758e0f9d3e8d5f41bb6916c70eb",
-				"dweb:/ipfs/QmehYqCsTaCiZ4dnUTKKLwJzhEMuWQNZ2UeK4t5ZZHufto"
+				"bzz-raw://8ba8dad87a302fd64070311d0a62d7a097a6c92dd11a1d5d0873e41c9e192bda",
+				"dweb:/ipfs/QmWykouz3iJxy8kTZYTtT67t8RXtdwCa3i7pFZ8PXvg1fo"
 			]
 		}
 	},

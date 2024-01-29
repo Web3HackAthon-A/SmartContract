@@ -26,7 +26,7 @@ contract KnowledgeNFT is ERC721, AccessControl {
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://raw.githubusercontent.com/Web3HackAthon-A/SmartContract/katori-dev/NFT%20Folder/";
+        return "https://raw.githubusercontent.com/Web3HackAthon-A/SmartContract/katori-dev//NFT/metadata/";
     }
 
     // The following functions are overrides required by Solidity.

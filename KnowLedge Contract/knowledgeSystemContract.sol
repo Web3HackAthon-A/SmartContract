@@ -52,5 +52,4 @@ contract KnowledgeSystem {
         address ownerAddress = nftContract.ownerOf(tokenId);
         tokenContract.reward(ownerAddress, amount * 10 ** tokenContract.decimals());
     }
-
 }

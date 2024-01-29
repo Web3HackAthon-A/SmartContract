@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 
-contract SkillToken is ERC20, AccessControl, ERC20Permit {
+contract KnowledgeToken is ERC20, AccessControl, ERC20Permit {
     bytes32 public constant REWARD_ROLE = keccak256("REWARD_ROLE");
 
     constructor(address defaultAdmin, address rewarder)
@@ -19,5 +19,13 @@ contract SkillToken is ERC20, AccessControl, ERC20Permit {
 
     function reward(address to, uint256 amount) public onlyRole(REWARD_ROLE) {
         _mint(to, amount);
+    }
+
+    function addRewardRole(address account) public onlyRole(DEFAULT_ADMIN_ROLE) {
+        _grantRole(REWARD_ROLE, account);
+    }
+
+    function removeRewardRole(address account) public onlyRole(DEFAULT_ADMIN_ROLE) {
+        _revokeRole(REWARD_ROLE, account);
     }
 }
